@@ -1,8 +1,10 @@
 <script setup>
+import MyFirst from './components/MyFirst.vue'
 </script>
 
 <template>
-  <h1 class="bg-primary p-3 text-white">Hello World</h1>
+  <MyFirst />
+  <MyFirst />
 </template>
 
 <style scoped>
